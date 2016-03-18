@@ -1,0 +1,24 @@
+{
+  "name": "workana",
+  "version": "1.0.0",
+  "description": "Nuevo diseno de Workana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "German Peraferrer",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "colors": "^1.1.2",
+    "font-awesome": "^4.5.0",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-less": "https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.5.tgz",
+    "gulp-plumber": "https://registry.npmjs.org/gulp-plumber/-/gulp-plumber-1.0.1.tgz",
+    "gulp-rename": "^1.2.2",
+    "jquery": "^2.2.1",
+    "node-notifier": "https://registry.npmjs.org/node-notifier/-/node-notifier-4.4.0.tgz",
+    "partialify": "^3.1.6"
+  }
+}
