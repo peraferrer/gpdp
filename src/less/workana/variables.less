@@ -10,9 +10,9 @@
 @gray-base:              #000;
 @gray-darker:            lighten(@gray-base, 13.5%); // #222
 @gray-dark:              lighten(@gray-base, 20%);   // #333
-@gray:                   lighten(@gray-base, 33.5%); // #555
-@gray-light:             lighten(@gray-base, 46.7%); // #777
-@gray-lighter:           lighten(@gray-base, 93.5%); // #eee
+@gray:                   #d8d8d8;
+@gray-light:             #f1f1f1;
+@gray-lighter:           #f0f0f0;
 
 @brand-primary:         #f8b600;
 @brand-success:         #4fa825;
@@ -232,20 +232,20 @@
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-@dropdown-bg:                    #fff;
+@dropdown-bg:                    #f4f4f4;
 //** Dropdown menu `border-color`.
-@dropdown-border:                rgba(0,0,0,.15);
+@dropdown-border:                none;
 //** Dropdown menu `border-color` **for IE8**.
 @dropdown-fallback-border:       #ccc;
 //** Divider color for between dropdown items.
 @dropdown-divider-bg:            #e5e5e5;
 
 //** Dropdown link text color.
-@dropdown-link-color:            @gray-dark;
+@dropdown-link-color:            #1f1f1f;
 //** Hover color for dropdown links.
 @dropdown-link-hover-color:      darken(@gray-dark, 5%);
 //** Hover background for dropdown links.
-@dropdown-link-hover-bg:         #f5f5f5;
+@dropdown-link-hover-bg:         #1f1f1f;
 
 //** Active dropdown menu item text color.
 @dropdown-link-active-color:     @component-active-color;
