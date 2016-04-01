@@ -1,3 +1,4 @@
+
 .btn-default,
 .btn-primary,
 .btn-success,
@@ -6,8 +7,27 @@
 .btn-danger {
     border-width: 0;
 }
-
-
+.gray{
+    color: @gray;
+}
+.light-gray{
+    color: @gray-light;
+}
+.primary{
+    color: @brand-primary;
+}
+.success{
+    color: @brand-success;
+}
+.info{
+    color: @brand-info;
+}
+.warning{
+    color: @brand-warning;
+}
+.danger{
+    color: @brand-danger;
+}
 // Inverse navbar
 
 .navbar-inverse {
@@ -179,10 +199,7 @@
     }
 
 }
-.jumbotron{
-    background: #f4f4f4;
-}
-
+// Buscador
 .buscador-menu{
     background-color: transparent;
     border: 0;
@@ -202,6 +219,7 @@
 }
 .titulo-subrayado{
     position: relative;
+    margin-bottom: 1em;
 
     .subtitle-border{
         border: 2px solid #f8b600;
@@ -210,4 +228,40 @@
         bottom: -5px;
         left: 0;
     }
+}
+
+// historial en workana
+
+.item-historial{
+    h5{
+        color: #009fe3;
+    }
+    span{
+        &.font-icon{
+            color: @brand-primary;
+        }
+    }
+    .media-body{
+        span{
+            color: @gray;
+        }
+    }
+}
+.recomendacion-item {
+    border-bottom: 1px solid @gray;
+}
+
+
+// Perfil icons
+.perfil-icons {
+    span {
+        &.font-icon {
+            font-size: 40px;
+        }
+    }
+}
+// PErfil contratame
+.perfil-principal-contratame{
+    background: #fff;
+    padding: 30px;
 }

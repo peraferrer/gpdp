@@ -4960,7 +4960,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #f0f0f0;
+  background-color: #f4f4f4;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4972,7 +4972,7 @@ a.badge:focus {
   font-weight: 200;
 }
 .jumbotron > hr {
-  border-top-color: #d7d7d7;
+  border-top-color: #dbdbdb;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
@@ -6864,6 +6864,27 @@ fieldset[disabled] .btn-grey.focus {
 .btn-danger {
   border-width: 0;
 }
+.gray {
+  color: #d8d8d8;
+}
+.light-gray {
+  color: #f1f1f1;
+}
+.primary {
+  color: #f8b600;
+}
+.success {
+  color: #4fa825;
+}
+.info {
+  color: #009fe3;
+}
+.warning {
+  color: #f0ad4e;
+}
+.danger {
+  color: #ff7c6d;
+}
 .navbar-inverse {
   background-color: #1f1f1f;
   border-color: none;
@@ -7000,9 +7021,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     display: table-cell;
   }
 }
-.jumbotron {
-  background: #f4f4f4;
-}
 .buscador-menu {
   background-color: transparent;
   border: 0;
@@ -7018,6 +7036,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .titulo-subrayado {
   position: relative;
+  margin-bottom: 1em;
 }
 .titulo-subrayado .subtitle-border {
   border: 2px solid #f8b600;
@@ -7025,6 +7044,25 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   position: absolute;
   bottom: -5px;
   left: 0;
+}
+.item-historial h5 {
+  color: #009fe3;
+}
+.item-historial span.font-icon {
+  color: #f8b600;
+}
+.item-historial .media-body span {
+  color: #d8d8d8;
+}
+.recomendacion-item {
+  border-bottom: 1px solid #d8d8d8;
+}
+.perfil-icons span.font-icon {
+  font-size: 40px;
+}
+.perfil-principal-contratame {
+  background: #fff;
+  padding: 30px;
 }
 .navbar-brand {
   padding: 5px 10px;
