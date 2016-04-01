@@ -3,6 +3,7 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import "workana/icomoon/icomoon-style.css";
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -6741,6 +6742,120 @@ button.close {
     display: none !important;
   }
 }
+.btn-grey-light {
+  color: #222222;
+  background-color: #f1f1f1;
+  border-color: transparent;
+}
+.btn-grey-light:focus,
+.btn-grey-light.focus {
+  color: #222222;
+  background-color: #d8d8d8;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey-light:hover {
+  color: #222222;
+  background-color: #d8d8d8;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey-light:active,
+.btn-grey-light.active,
+.open > .dropdown-toggle.btn-grey-light {
+  color: #222222;
+  background-color: #d8d8d8;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey-light:active:hover,
+.btn-grey-light.active:hover,
+.open > .dropdown-toggle.btn-grey-light:hover,
+.btn-grey-light:active:focus,
+.btn-grey-light.active:focus,
+.open > .dropdown-toggle.btn-grey-light:focus,
+.btn-grey-light:active.focus,
+.btn-grey-light.active.focus,
+.open > .dropdown-toggle.btn-grey-light.focus {
+  color: #222222;
+  background-color: #c6c6c6;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey-light:active,
+.btn-grey-light.active,
+.open > .dropdown-toggle.btn-grey-light {
+  background-image: none;
+}
+.btn-grey-light.disabled:hover,
+.btn-grey-light[disabled]:hover,
+fieldset[disabled] .btn-grey-light:hover,
+.btn-grey-light.disabled:focus,
+.btn-grey-light[disabled]:focus,
+fieldset[disabled] .btn-grey-light:focus,
+.btn-grey-light.disabled.focus,
+.btn-grey-light[disabled].focus,
+fieldset[disabled] .btn-grey-light.focus {
+  background-color: #f1f1f1;
+  border-color: transparent;
+}
+.btn-grey-light .badge {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+.btn-grey {
+  color: #ffffff;
+  background-color: #d8d8d8;
+  border-color: transparent;
+}
+.btn-grey:focus,
+.btn-grey.focus {
+  color: #ffffff;
+  background-color: #bfbfbf;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey:hover {
+  color: #ffffff;
+  background-color: #bfbfbf;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey:active,
+.btn-grey.active,
+.open > .dropdown-toggle.btn-grey {
+  color: #ffffff;
+  background-color: #bfbfbf;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey:active:hover,
+.btn-grey.active:hover,
+.open > .dropdown-toggle.btn-grey:hover,
+.btn-grey:active:focus,
+.btn-grey.active:focus,
+.open > .dropdown-toggle.btn-grey:focus,
+.btn-grey:active.focus,
+.btn-grey.active.focus,
+.open > .dropdown-toggle.btn-grey.focus {
+  color: #ffffff;
+  background-color: #adadad;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-grey:active,
+.btn-grey.active,
+.open > .dropdown-toggle.btn-grey {
+  background-image: none;
+}
+.btn-grey.disabled:hover,
+.btn-grey[disabled]:hover,
+fieldset[disabled] .btn-grey:hover,
+.btn-grey.disabled:focus,
+.btn-grey[disabled]:focus,
+fieldset[disabled] .btn-grey:focus,
+.btn-grey.disabled.focus,
+.btn-grey[disabled].focus,
+fieldset[disabled] .btn-grey.focus {
+  background-color: #d8d8d8;
+  border-color: transparent;
+}
+.btn-grey .badge {
+  color: #d8d8d8;
+  background-color: #ffffff;
+}
 .btn-default,
 .btn-primary,
 .btn-success,
@@ -6884,4 +6999,36 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   .navbar-inverse .dropdown-menu > li {
     display: table-cell;
   }
+}
+.jumbotron {
+  background: #f4f4f4;
+}
+.buscador-menu {
+  background-color: transparent;
+  border: 0;
+  font-size: 14px;
+  padding: 5px 0 0 0;
+  color: #fff;
+  opacity: .55;
+  font-weight: 400;
+  height: inherit;
+}
+.portfolio-item .font-icon {
+  font-size: 20px;
+}
+.titulo-subrayado {
+  position: relative;
+}
+.titulo-subrayado .subtitle-border {
+  border: 2px solid #f8b600;
+  width: 80px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.navbar-brand {
+  padding: 5px 10px;
+}
+.main-profile-bg {
+  background: #f4f4f4;
 }

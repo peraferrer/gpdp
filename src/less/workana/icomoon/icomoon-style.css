@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'workana';
+    src:    url('../fonts/workana.eot?lexgvw');
+    src:    url('../fonts/workana.eot?lexgvw#iefix') format('embedded-opentype'),
+        url('../fonts/workana.ttf?lexgvw') format('truetype'),
+        url('../fonts/workana.woff?lexgvw') format('woff'),
+        url('../fonts/workana.svg?lexgvw#workana') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'workana' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-icon-like:before {
+    content: "\e62d";
+}
+.font-icon-not-like:before {
+    content: "\e62e";
+}
+.font-icon-star:before {
+    content: "\e62f";
+}
+.font-icon-idea:before {
+    content: "\e631";
+}
+.font-icon-thumbs-up:before {
+    content: "\e632";
+}
+.font-icon-money:before {
+    content: "\e633";
+}
+.font-icon-dot:before {
+    content: "\e634";
+}
+.font-icon-pin:before {
+    content: "\e635";
+}
+.font-icon-go:before {
+    content: "\e636";
+}
+.font-icon-landing-mobile:before {
+    content: "\e637";
+}
+.font-icon-landing-programming:before {
+    content: "\e638";
+}
+.font-icon-landing-design:before {
+    content: "\e639";
+}
+.font-icon-landing-media:before {
+    content: "\e63a";
+}
+.font-icon-landing-marketing:before {
+    content: "\e63b";
+}
+.font-icon-landing-finance:before {
+    content: "\e63c";
+}
+.font-icon-quote:before {
+    content: "\e63d";
+}
+.font-icon-left:before {
+    content: "\e63e";
+}
+.font-icon-right:before {
+    content: "\e63f";
+}
+.font-icon-wordpress:before {
+    content: "\e640";
+}
+.font-icon-facebook:before {
+    content: "\e641";
+}
+.font-icon-twitter:before {
+    content: "\e642";
+}
+.font-icon-google:before {
+    content: "\e643";
+}
+.font-icon-youtube:before {
+    content: "\e644";
+}
+.font-icon-message:before {
+    content: "\e600";
+}
+.font-icon-bid:before {
+    content: "\e601";
+}
+.font-icon-project_invitation:before {
+    content: "\e602";
+}
+.font-icon-bid_lost:before {
+    content: "\e603";
+}
+.font-icon-notice:before {
+    content: "\e604";
+}
+.font-icon-rate:before {
+    content: "\e605";
+}
+.font-icon-hour_reported:before {
+    content: "\e606";
+}
+.font-icon-release:before {
+    content: "\e607";
+}
+.font-icon-bid_accepted:before {
+    content: "\e608";
+}
+.font-icon-deliverable_accepted:before {
+    content: "\e609";
+}
+.font-icon-bid_escrowed:before {
+    content: "\e60a";
+}
+.font-icon-hour_approved:before {
+    content: "\e60b";
+}
+.font-icon-withdraw:before {
+    content: "\e60c";
+}
+.font-icon-hours_billed:before {
+    content: "\e60d";
+}
+.font-icon-deadline_proposed:before {
+    content: "\e60e";
+}
+.font-icon-deadline_approval:before {
+    content: "\e60f";
+}
+.font-icon-arbitration:before {
+    content: "\e610";
+}
+.font-icon-deliverable_rejected:before {
+    content: "\e611";
+}
+.font-icon-payment_authorized:before {
+    content: "\e612";
+}
+.font-icon-project_cancelled:before {
+    content: "\e613";
+}
+.font-icon-direct_payment:before {
+    content: "\e614";
+}
+.font-icon-contract_terminated:before {
+    content: "\e615";
+}
+.font-icon-hour_rejected:before {
+    content: "\e616";
+}
+.font-icon-project-uninvitation:before {
+    content: "\e617";
+}
+.font-icon-accepted_bid_updated:before {
+    content: "\e618";
+}
+.font-icon-news:before {
+    content: "\e619";
+}
+.font-icon-notifications:before {
+    content: "\e61a";
+}
+.font-icon-phone-support:before {
+    content: "\e61b";
+}
+.font-icon-project-edit:before {
+    content: "\e61c";
+}
+.font-icon-project-republish:before {
+    content: "\e61d";
+}
+.font-icon-project-release:before {
+    content: "\e61e";
+}
+.font-icon-project-rating:before {
+    content: "\e61f";
+}
+.font-icon-project-add-worker:before {
+    content: "\e620";
+}
+.font-icon-project-deadline:before {
+    content: "\e621";
+}
+.font-icon-work-journal:before {
+    content: "\e622";
+}
+.font-icon-go-contract:before {
+    content: "\e623";
+}
+.font-icon-project-proposal:before {
+    content: "\e624";
+}
+.font-icon-deliverable:before {
+    content: "\e625";
+}
+.font-icon-project-cancel:before {
+    content: "\e626";
+}
+.font-icon-project-upsell-featured:before {
+    content: "\e627";
+}
+.font-icon-project-upsell-general-support:before {
+    content: "\e628";
+}
+.font-icon-project-upsell-it-support:before {
+    content: "\e629";
+}
+.font-icon-dashboard-icons-to-font-20:before {
+    content: "\e62a";
+}
+.font-icon-arrow-dropdown:before {
+    content: "\e62b";
+}
+.font-icon-close:before {
+    content: "\e62c";
+}
+.font-icon-mediation_resolution_proposed:before {
+    content: "\e630";
+}
+
