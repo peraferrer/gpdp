@@ -53,7 +53,8 @@ gulp.task('Watchers', function() {
         // Archivos que estamos escuchando
         [
             './src/js/workana.js',
-            './src/less/workana.less'
+            './src/less/**/*.less',
+            './src/less/workana/**/*.css'
         ],
         // Tareas que ejecutamos cuando algo cambia
         [
